@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner in = new Scanner(System.in);
-  //  static ArrayList<Deal> dealList; // список, в котором лежат все наши дела
 
     public static void main(String[] args) throws ParseException, IOException {
 
