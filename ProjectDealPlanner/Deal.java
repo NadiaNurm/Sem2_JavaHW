@@ -56,9 +56,6 @@ public class Deal {
 
 
     public static Date stringToDate(String myDate) throws ParseException {
-        // if(myDate.matches("\\d-\\d-\\d")){
-            //     throw new IllegalArgumentException();
-            // }
         DateFormat format = new SimpleDateFormat("DD-MM-YYYY", Locale.ENGLISH);
         Date date = format.parse(myDate);
         return date;
